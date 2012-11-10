@@ -9,7 +9,7 @@ sys.path.append(PREFIX)
 
 from storage import test_upyun_store
 
-def handler():
+def test_sotrage():
     filepath = PREFIX + "/test.jpg"
     with open(filepath) as ufile:
         path = "test/test.jpg"
@@ -22,4 +22,4 @@ def handler():
             print "url", url
 
 if __name__ == "__main__":
-    handler()
+    test_sotrage()
